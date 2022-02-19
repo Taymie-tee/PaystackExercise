@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PaystackExercise:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>PaystackExercise</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="PaystackExercise.war">
+      <element id="artifact" artifact-name="PaystackExercise:war exploded" />
+    </root>
+  </artifact>
+</component>
